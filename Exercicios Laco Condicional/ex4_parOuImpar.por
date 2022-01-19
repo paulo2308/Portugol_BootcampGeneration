@@ -13,9 +13,11 @@ programa
 		leia(numero)
 
 		se(numero%2 == 0){
-			escreva(numero + ", é par")
+			se(numero >= 0) escreva(numero + ", é par e positivo")
+			senao escreva(numero + ", é par e negativo")
 		}senao{
-			escreva(numero + ", é impar")
+			se(numero >= 0) escreva(numero + ", é impar e positivo")
+			senao escreva(numero + ", é impar e negativo")
 		}
 	}
 }
@@ -24,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 349; 
+ * @POSICAO-CURSOR = 494; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
